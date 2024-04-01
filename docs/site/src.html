@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic List</title>
+<style>
+  /* Styles for the list container */
+  .list-container {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  /* Styles for the list */
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Initially hide the list */
+  }
+
+  /* Styles for the arrow button */
+  .arrow-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+
+<div class="list-container">
+  <button class="arrow-button" onclick="toggleList()">▶</button>
+  <ul class="list" id="dynamicList">
+    <!-- Dynamic list items will be added here -->
+  </ul>
+</div>
+
+<script>
+function toggleList() {
+  var list = document.getElementById("dynamicList");
+  // Toggle the display of the list
+  if (list.style.display === "none") {
+    list.style.display = "block";
+    // Generate and add dynamic list items
+    generateListItems();
+  } else {
+    list.style.display = "none";
+  }
+}
+
+function generateListItems() {
+  var list = document.getElementById("dynamicList");
+  // Clear existing list items
+  list.innerHTML = "";
+  // Dummy data for demonstration
+  var items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
+  // Create list items and append to the list
+  items.forEach(function(item) {
+    var li = document.createElement("li");
+    li.textContent = item;
+    list.appendChild(li);
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["25213d"],{iNbD:function(t,e,c){"use strict";c.d(e,"a",(function(){return s}));var n=c("pzDr"),o=c("7Azc"),p=Object(n.withBemMod)(Object(o.a)(),{width:"auto"}),i=c("4Gwv"),s=Object(i.f)({desktop:p})}}]);

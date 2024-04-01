@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["d9b1f9"],{fZog:function(e,n,t){"use strict";t.d(n,"a",(function(){return r}));var c=t("nimY"),o=t("pzDr"),p=t("tKEM"),i=Object(o.withBemMod)(p.c,{align:"center"}),r=Object(c.g)({desktop:i})}}]);

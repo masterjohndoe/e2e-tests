@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["e815fd"],{"jL/j":function(n,e,t){"use strict";t.d(e,"a",(function(){return p}));var o=t("4Gwv"),p=Object(o.f)({desktop:function(n){return n}})}}]);

@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["bfb363"],{Eju5:function(n,o,e){"use strict";e.d(o,"a",(function(){return t}));var p=e("4Gwv"),s=e("oTfo").a,t=Object(p.f)({desktop:s})}}]);

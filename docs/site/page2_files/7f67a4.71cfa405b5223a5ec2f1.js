@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["7f67a4"],{"6Mq8":function(e,n,t){"use strict";t.d(n,"a",(function(){return u}));var r=t("4Gwv"),c=t("nAbZ"),i=t("cDcd"),o=t.n(i),s=t("pzDr"),a=t("rrlP"),p=Object(s.withBemMod)(a.b,{size:"ml"},(function(e){return function(n){return o.a.createElement(e,Object(c.a)({starSize:19},n))}})),u=Object(r.f)({desktop:p})}}]);

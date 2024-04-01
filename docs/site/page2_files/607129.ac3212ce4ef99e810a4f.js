@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["607129"],{FsUb:function(n,e,r){"use strict";r.d(e,"a",(function(){return s})),r.d(e,"b",(function(){return t}));var c=r("yn3j"),s=Object(c.cn)("Fact"),t=s("AnswererHeader")}}]);

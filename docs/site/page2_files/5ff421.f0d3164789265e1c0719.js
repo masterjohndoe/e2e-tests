@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["5ff421"],{"yU/E":function(e,n,s){"use strict";s.d(n,"a",(function(){return c}));var p=s("pzDr"),t=s("NGSv"),c=Object(p.withBemMod)(Object(t.b)(),{size:"s"})}}]);

@@ -1,0 +1,1 @@
+(window.serpWebpackJsonp=window.serpWebpackJsonp||[]).push([["b7cee2"],{PDyh:function(e,n,s){"use strict";s.d(n,"a",(function(){return o}));var t=s("nimY"),c=s("6mNP"),o=Object(t.d)({desktop:c.a},{file:"web4/src/components/Fact/-Layout/index.ts"})}}]);
