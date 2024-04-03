@@ -1,11 +1,14 @@
 import test, { Page } from '@playwright/test';
 import { Navbar } from '../components/navigation/navbar';
+import { ServiceSuggest } from '../components/service.suggest';
 
 export class BasePage {
   readonly navbar: Navbar;
+  readonly serviceSuggest: ServiceSuggest;
 
   constructor(protected page: Page) {
     this.navbar = new Navbar(page);
+    this.serviceSuggest = new ServiceSuggest(page);
   }
 
   async visit(url: string): Promise<void> {
